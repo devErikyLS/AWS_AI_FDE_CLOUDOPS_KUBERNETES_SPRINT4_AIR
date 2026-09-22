@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: teste-pod
+  namespace: desafio-kubernetes
+spec:
+  containers:
+    - name: teste-pod
+      image: nginx:alpine
